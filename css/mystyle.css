@@ -1,0 +1,478 @@
+:root{
+--main-color:orange;
+--grey:rgb(58, 57, 57);
+--soft-gray: rgb(235, 232, 232);
+--white:white;
+--main-font-size:16px;
+
+}
+.navbar .navbar-brand span {
+
+color:var(--main-color);
+
+
+}
+
+header{
+
+    background-image: url(../imgs/slide-1.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+.overlay{
+    height:100% ;
+    width: 100%;
+        background-color: var(--grey);
+        opacity: 85%
+        
+    
+        
+    }
+navbar{
+
+    font-size:calc(var(--main-font-size)+2px);
+    
+}
+
+
+
+.navbar .navbar-nav .nav-item:hover{
+    background-color: var(--main-color);
+    opacity: .6;
+    color: var(--white);
+    border: 2px solid var(--soft-gray);
+
+ }
+
+.navbar .navbar-nav .nav-item .nav-link {
+
+    color: var(--white);
+}
+
+.navbar .container .navbar-brand h4 {
+
+    color: var(--white);
+   
+}
+
+.caption h2 span{
+
+    color:var(--main-color);
+    font-weight: bold;
+
+}
+.caption  {
+    
+    color: var(--white);  
+  
+}
+
+ .hire-btn ,.work-btn {
+
+    color: var(--white);
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight:bold;
+
+
+ }
+
+ .hire-btn:hover{
+
+    background-color: var(--main-color);
+    opacity: .6;
+    color: var(--white);
+    border: 2px solid var(--soft-gray);
+ }
+
+ .work-btn:hover{
+    background-color: var(--main-color);
+    opacity: .6;
+    color: var(--white);
+    border: 2px solid var(--soft-gray);
+
+ }
+
+.btn-outline {
+
+    background-color:transparent;
+    
+}
+.center {
+    background:var(--white);
+    width: 100px;
+    height:100px;
+    border:2px solid var(--soft-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+     margin-left: 35%;
+     margin-bottom: 3%;
+     
+  }
+
+  .row .center .icon{
+
+    margin-left: 25%;
+  }
+  .icon-cog{
+    color: var(--main-color);
+  }
+
+  .row p{
+      width:20vw;
+      margin-left: 5%;
+  }
+
+
+
+    .icon-bar .icon  {
+           display:block;  
+        text-align: center;          /* Center-align text */
+        padding: 10px;                    /* Add some padding */
+        transition: all 0.3s ease;        
+     
+    
+      }
+         
+     .icon-bar :hover {
+        
+        
+        background-color: var(--main-color);
+        opacity: .6;
+        color: var(--white);
+        border: 2px solid var(--soft-gray);
+        
+      } 
+      
+    
+  
+/* start our work  */
+
+.our-work .row img{
+
+    width: 100%;
+    height:100%;
+}  
+.our-work .caption span {
+
+    color:var(--main-color);
+}
+
+.our-work .caption  {
+
+    color:#576574;
+
+ font-size: calc(var(--main-font-size)+15px);
+
+}
+
+.our-work .work {
+
+    border: 2px solid var(--gray);
+}
+
+
+.our-work .work:hover {
+
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    color: var(--white);
+
+}
+
+.our-work .row img{
+
+    width: 100%;
+    height:100%;
+}
+  
+.our-work .row .desc{
+
+
+    background-color: var(--main-color);
+
+    color: var(--white);
+    padding:15% 0 ;
+    width: 100%;
+    height:100%;
+    opacity:0%;
+}
+
+.our-work .row .show-more{
+
+    background-color: skyblue;
+    border: 1px solid white;
+    color: var(--white);
+  
+}
+
+.our-work .row .desc:hover{
+
+    opacity: 0.7;
+    transition: all .5s ease-in-out;
+}
+
+
+
+/* end our work  */
+
+
+
+.our-team .desc span{
+
+    color:var(--main-color);
+}
+
+.our-team .desc p{
+
+    color:var(--grey);
+}
+
+
+.our-team .row img{
+
+    height: 30vh;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.our-team img:hover{
+
+    
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.our-team img:hover ~ .icons .fa-facebook-square {
+ 
+    color: #1da1f2;
+
+}
+
+.our-team img:hover ~ .icons .fa-twitter {
+ 
+    color: #1da1f2;
+
+}
+
+.our-team img:hover ~ .icons .fa-youtube {
+ 
+    color: #ff0000;
+
+}
+
+.our-team img:hover ~ .icons .fa-google {
+ 
+    color: #4285f4;
+
+}
+
+
+/* start contact us  */
+.contact-us{
+    width: 100%;
+    height: 70vh;
+background-image: url(../imgs/contact-bg.jpg);
+background-size: cover;
+color:var(--white);
+align-self: center;
+z-index: 0;
+
+}
+
+.overlay{
+background-color:rgb(32, 31, 31);
+opacity: .7;
+z-index: -1;
+}
+
+
+
+
+
+
+.contact-us .desc {
+
+    color: var(--white);
+}
+
+.contact-us .desc span {
+
+    color: var(--main-color);
+}
+
+.contact-us  form  {
+    width:70%;
+    border-radius: 7px;
+    margin-left: 10%;
+    color:var(--white);
+
+ 
+}
+
+
+
+.contact-us textarea {
+    width:70%;
+    border-radius: 7px;
+    margin-left: 10%;
+    color:var(--white);
+
+}
+
+.contact-us form input , .contact-us  textarea{
+
+    background-color: transparent;
+    
+}
+
+.container{
+
+    width:100%;
+}
+.contanier .row .hire-btn {
+
+background-color: var(--main-color);
+color:var(--white);
+border: 2px solid orange ;
+border-radius: 7px;
+width:35%;
+height: 6vh;
+}
+
+.contanier .row .hire-btn {
+
+margin-left:30%;
+padding:4px;
+text-align:center;
+font-size: 15px;
+
+}
+
+.contanier .row .center-space{
+
+    width: 25%;
+}
+.contanier .row .icons{
+
+   text-align: right;
+   width: 58%;
+   margin-left: 7vw;
+}
+
+ .container .row .icons .fa-facebook-square {
+ 
+    color: #1da1f2;
+
+}
+
+.container .row .icons  .fa-twitter {
+ 
+    color: #1da1f2;
+
+}
+
+ .container .row .icons  .fa-youtube {
+ 
+    color: #ff0000;
+
+}
+
+ .container .row .icons .fa-google {
+ 
+    color: #4285f4;
+
+}
+/* End contact us  */
+
+/* <!-- start footer  --> */
+
+.footer-sec{
+
+    width: 100%;
+    height: 9vh;
+    background-color:rgb(75, 75, 75);
+    color: var(--white);
+
+}
+
+.icon-header1{
+    width: 50% ;
+    margin-right: 50%;
+    font-size:14px;
+  display:flex;
+  flex-direction: row;
+  padding-left: 12%;
+  padding-top: 15px;
+
+}
+
+ .header2 {
+    width: 50% ;
+    margin-left: 50%;
+    margin-top:-40px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end footer */
+
+
+/* .footer-sec {
+    width: 100%;
+
+    background-color: grey;
+    height: 10vh;
+    color: var(--white);
+
+}
+
+.icon{
+    width: 50%;
+margin-left: 30%;
+}
+h6{
+    width: 50%;
+margin-right: 50%;
+
+
+}
+.space{
+    width:50% */
+   
+
+
+
+
+
+
